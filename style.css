@@ -1,0 +1,77 @@
+/*==RESET DAS DEFINIÇÕES PADRÃO==*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%; /*deixa um espaço a direita e a esquerda*/
+    height: 10vh;
+    margin: auto; /*alinha ao centro*/
+    align-items: center;
+    
+}
+
+.logo-container,
+.nav-links,
+.cart {
+    display: flex;
+}
+
+.logo-container {
+flex: 1;
+}
+
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cart {
+flex: 1;
+justify-content: flex-end; /*coloca o carrinho no fim ao lado esquerdo*/
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+}
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+.cover {
+    flex: 1;
+}
+
+.cover img {
+    height: 60vh;
+}
