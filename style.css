@@ -198,7 +198,9 @@ justify-content: flex-end; /*coloca o carrinho no fim ao lado esquerdo*/
     .cover img {
         height: 80%;
     }
-    .small-circle,.medium-circle,.big-circle{
+    .small-circle,
+    .medium-circle,
+    .big-circle{
         opacity: 0.2;
     }
 }
