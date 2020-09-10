@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/julombe/landing-page/issues"
   },
-  "homepage": "https://github.com/julombe/landing-page#readme"
+  "homepage": "https://github.com/julombe/landing-page#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
