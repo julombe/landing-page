@@ -12,7 +12,7 @@ nunjucks.configure("views", {
     express: server
 })
 
-//adding routes
+//creating routes
 server.get("/", function(req, res){
     return res.render('index')
 })
