@@ -3,6 +3,8 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 
+//using CSS in front
+server.use(express.static('public'))
 
 //configuring template engine nunjucks
 server.set("view engine", "html")
