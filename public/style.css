@@ -156,20 +156,6 @@ justify-content: flex-end; /*coloca o carrinho no fim ao lado esquerdo*/
     right: 20%;
 }
 
-/*==animações==*/
-
-@keyframes drop {
-    0% {
-        opacity: 0;
-        transform: translateY(-80px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-
 /*not-found*/
 .header-text{
     font-family: 'Inconsolata',
@@ -218,6 +204,19 @@ p {
     cursor: pointer;
 }
 
+
+/*==animações==*/
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 
 /*==responsividade com media queries*/
