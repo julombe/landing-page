@@ -1,5 +1,5 @@
 const express = require('express')
-const routes = require('routes')
+const routes = express.Router()
 
 
 //creating routes
